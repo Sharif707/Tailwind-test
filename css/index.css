@@ -19,6 +19,7 @@
         }
         #flex-half {
             flex-basis: 45%;
+            flex-wrap: wrap;
         }
         
     }
