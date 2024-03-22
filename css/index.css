@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+   
+    ul > li {
+        @apply py-3;
+    }
+}
+
+    @media (min-width: 1050px) {
+        #modified-div  {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 15px;
+        }
+        #flex-half {
+            flex-basis: 45%;
+        }
+        
+    }
